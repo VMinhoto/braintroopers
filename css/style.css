@@ -461,8 +461,8 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     position:absolute;
     animation:highlight-left 2s ease-in 0s infinite;
     -webkit-animation:highlight-left 2s ease-in 0s infinite;
-    left:-5px;
-    margin-top:-100px;
+    left:+5px;
+    margin-top:0px;
 }
 @-webkit-keyframes highlight-right {
     0% {
@@ -500,8 +500,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     position:absolute;
     animation:highlight-right 2s ease-in 0s infinite;
     -webkit-animation:highlight-right 2s ease-in 0s infinite;
-    right:-5px;
-    margin-top: -100px;
+    right:+5px;
+    margin-top:0px;
+
 }
 
 /*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
@@ -642,7 +643,7 @@ a.next{
 HH              Development Team
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #team{
-    background: #eee;
+    background: #ffff;
     text-align: center;
     color: #333;
 }
